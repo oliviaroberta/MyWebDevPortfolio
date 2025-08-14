@@ -53,7 +53,7 @@ const PortfolioShowcase = () => {
       description: "A comprehensive portfolio website showcasing my skills, projects, and experience as a web developer, built with React, Next.js, and TypeScript.",
       image: "/assets/images/Screenshot1m.png",
       type: "Frontend",
-      technologies: ["React", "TypeScript", "Tailwind CSS"],
+      technologies: ["React", "JavaScript", "Tailwind CSS", "Framer Motion", "React Icons", "Next.js"],
       featured: true,
       liveUrl: "https://designsystem-pro.netlify.app",
       githubUrl: "https://github.com/oliviaroberta/designsystem-pro",
