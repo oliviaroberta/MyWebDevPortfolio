@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Core System Colors */
+    --color-background: #FEFEFE; /* white */
+    --color-foreground: #2C2C2C; /* gray-800 */
+    --color-border: #E8B4B8; /* rose-300 */
+    --color-ring: #E8B4B8; /* rose-300 */
+    --color-card: #F9F7F4; /* stone-50 */
+    --color-card-foreground: #2C2C2C; /* gray-800 */
+    --color-popover: #FEFEFE; /* white */
+    --color-popover-foreground: #2C2C2C; /* gray-800 */
+    --color-muted: #F5F1EB; /* stone-100 */
+    --color-muted-foreground: #6B6B6B; /* gray-500 */
+
+    /* Brand Colors */
+    --color-primary: #F5F1EB; /* stone-100 */
+    --color-primary-foreground: #2C2C2C; /* gray-800 */
+    --color-secondary: #E8B4B8; /* rose-300 */
+    --color-secondary-foreground: #2C2C2C; /* gray-800 */
+    --color-accent: #A8B5A0; /* sage-400 */
+    --color-accent-foreground: #FEFEFE; /* white */
+
+    /* Status Colors */
+    --color-destructive: #D4756B; /* red-400 */
+    --color-destructive-foreground: #FEFEFE; /* white */
+    --color-success: #7FB069; /* green-400 */
+    --color-success-foreground: #FEFEFE; /* white */
+    --color-warning: #E8A87C; /* orange-300 */
+    --color-warning-foreground: #2C2C2C; /* gray-800 */
+    --color-error: #D4756B; /* red-400 */
+    --color-error-foreground: #FEFEFE; /* white */
+
+    /* Typography Colors */
+    --color-text-primary: #2C2C2C; /* gray-800 */
+    --color-text-secondary: #6B6B6B; /* gray-500 */
+    --color-text-muted: #9CA3AF; /* gray-400 */
+
+    /* Interactive Colors */
+    --color-cta: #D4A574; /* amber-400 */
+    --color-cta-foreground: #2C2C2C; /* gray-800 */
+    --color-hover: #E8B4B8; /* rose-300 */
+    --color-focus: #A8B5A0; /* sage-400 */
+
+    /* Surface Colors */
+    --color-surface: #F9F7F4; /* stone-50 */
+    --color-surface-elevated: #F5F1EB; /* stone-100 */
+    --color-surface-overlay: rgba(44, 44, 44, 0.1); /* gray-800 with opacity */
+
+    /* Border Radius */
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* Typography Base Styles */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--color-text-primary);
+  }
+
+  p, span, div {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--color-text-primary);
+  }
+
+  /* Code Elements */
+  code, pre {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 400;
+  }
+
+  /* Custom Animations */
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes shimmer {
+    0% { background-position: -200px 0; }
+    100% { background-position: calc(200px + 100%) 0; }
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp 0.6s ease-out;
+  }
+
+  .animate-shimmer {
+    animation: shimmer 2s linear infinite;
+  }
+
+  /* Custom Shadows */
+  .shadow-warm {
+    box-shadow: 0 4px 20px rgba(232, 180, 184, 0.15);
+  }
+
+  .shadow-warm-lg {
+    box-shadow: 0 8px 24px rgba(232, 180, 184, 0.2);
+  }
+
+  /* Gradient Text */
+  .gradient-text {
+    background: linear-gradient(135deg, #2C2C2C 0%, #E8B4B8 50%, #A8B5A0 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Smooth Transitions */
+  .transition-smooth {
+    transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+
+  /* Interactive Glow */
+  .glow-hover:hover {
+    filter: drop-shadow(0 0 20px rgba(232, 180, 184, 0.3));
+  }
+
+  /* Scrollbar Styling */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--color-muted);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-secondary);
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-accent);
+  }
+/* global.css or tailwind base layer */
+html,
+body {
+  overflow-x: hidden;
+}
+
+}
