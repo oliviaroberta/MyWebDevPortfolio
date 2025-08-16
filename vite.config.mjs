@@ -3,10 +3,10 @@ import react from "@vitejs/plugin-react";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
-  base: '/',
+  base: './',
   
   build: {
-    outDir: "dist",
+    outDir: "build",
     chunkSizeWarningLimit: 2000,
     manifest: true,
     rollupOptions: {
