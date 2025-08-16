@@ -1,15 +1,11 @@
 {
-  "routes": [
-    {
-      "src": "/static/(.*)",
-      "dest": "/static/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html",
-      "headers": {
-        "Cache-Control": "no-store"
-      }
-    }
-  ]
+  "version": 2,
+  "builds": [{
+    "src": "dist/**",
+    "use": "@vercel/static"
+  }],
+  "routes": [{
+    "src": "/(.*)",
+    "dest": "dist/$1"
+  }]
 }
