@@ -54,9 +54,9 @@ const PortfolioShowcase = () => {
       image: "/assets/images/Screenshot1m.png",
       type: "Frontend",
       technologies: ["React", "JavaScript", "Tailwind CSS", "Framer Motion", "React Icons", "Next.js"],
-      featured: true,
-      liveUrl: "https://designsystem-pro.netlify.app",
-      githubUrl: "https://github.com/oliviaroberta/designsystem-pro",
+      featured: false,
+      liveUrl: "https://my-web-dev-portfolio-five.vercel.app/",
+      githubUrl: "https://github.com/oliviaroberta/MyWebDevPortfolio",
       duration: "3 weeks",
       gallery: [
         "/assets/images/Screenshot3m.png",
@@ -104,7 +104,30 @@ const PortfolioShowcase = () => {
         "Cart and checkout functionality",
         "SEO optimized for better visibility",
         "Fast loading times"
-      ]}
+      ]},
+      {
+        id: 4,
+        title: "Wine Website",
+        description: "My very first website, which was a school project. It showcases my skills in HTML, CSS, and JavaScript, and serves as a testament to my growth as a web developer.",
+        image: "/assets/images/Screenshot1W.png",
+        type: "Frontend",
+        technologies: ["HTML", "CSS", "JavaScript", ],
+        featured: false,
+        liveUrl: "https://wine-website-one.vercel.app/",
+        githubUrl: "https://github.com/oliviaroberta/Wine-Website",
+        duration: "2 weeks",
+        gallery: [
+          "/assets/images/Screenshot2W.png",
+          "/assets/images/Screenshot3W.png",
+        ],
+        challenge: "A challenging project that required a deep understanding of web development principles.",
+        solution: "I created a simple yet effective website using HTML, CSS, and JavaScript, focusing on clean code and best practices.",
+        features: [
+          "Responsive layout",
+          "Interactive elements",
+          "Cross-browser compatibility"
+        ]
+      }
   ];
 
 

@@ -42,6 +42,69 @@ const SkillsMatrix = () => {
       icon: 'Palette',
       projects: ['Responsive Layouts', 'Animation Libraries', 'Theme Systems'],
     },
+    {
+      name: 'Framer Motion',
+      level: 'Beginner',
+      progress: 60,
+      experience: '5+ Months',
+      color: 'gray',
+      icon: 'Palette',
+      projects: ['Animation Libraries', 'Micro-Interactions', 'UI Transitions'],
+    },
+    {
+      name: 'Redux',
+      level: 'Beginner',
+      progress: 50,
+      experience: '5+ months',
+      color: 'gray',
+      icon: 'Rocket',
+      projects: ['State Management', 'Data Fetching', 'Global State'],
+    },
+    {
+      name: 'Vite',
+      level: 'Intermediate',
+      progress: 85,
+      experience: '1+ years',
+      color: 'gray',
+      icon: 'Rocket',
+      projects: ['Marketing Website', 'E-commerce', 'SEO-Optimized App'],
+    },
+    {
+      name: 'JavaScript',
+      level: 'Intermediate',
+      progress: 80,
+      experience: '1+ years',
+      color: 'yellow',
+      icon: 'Code',
+      projects: ['Dynamic Web Apps', 'Interactive Features', 'API Integration'],
+    },
+    {
+      name: 'HTML/CSS',
+      level: 'Intermediate',
+      progress: 85,
+      experience: '1+ years',
+      color: 'pink',
+      icon: 'FileText',
+      projects: ['Landing Pages', 'Email Templates', 'Web Components'],
+    },
+    {
+      name: 'Git/GitHub',
+      level: 'Intermediate',
+      progress: 90,
+      experience: '1+ years',
+      color: 'purple',
+      icon: 'GitBranch',
+      projects: ['Version Control', 'Collaboration', 'Open Source Contributions'],
+    },
+    {
+      name: 'Testing (Jest, React Testing Library)',
+      level: 'Beginner',
+      progress: 55,
+      experience: '5+ months',
+      color: 'orange',
+      icon: 'CheckCircle',
+      projects: ['Unit Tests', 'Integration Tests', 'End-to-End Tests'],
+    },
   ];
 
   // Services data
@@ -61,6 +124,17 @@ const SkillsMatrix = () => {
       description: 'Improving load times, reducing bundle sizes, and enhancing UX.',
       icon: 'GaugeCircle',
     },
+    {
+      title: 'Code Reviews',
+      description: 'Ensuring code quality and best practices through thorough reviews.',
+      icon: 'CheckSquare',
+    },
+    {
+      title: 'Technical Consulting',
+      description: 'Advising on architecture, tech stack, and development processes.',
+      icon: 'Lightbulb',
+    },
+    
   ];
 
   useEffect(() => {
