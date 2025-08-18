@@ -6,7 +6,7 @@ export default defineConfig({
   base: './',
   
   build: {
-    outDir: "dist",
+    outDir: "build",
     chunkSizeWarningLimit: 2000,
     manifest: true,
     rollupOptions: {
