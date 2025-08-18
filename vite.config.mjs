@@ -35,11 +35,7 @@ export default defineConfig({
     }
   },
   
-  define: {
-    __WS_TOKEN__: JSON.stringify('dev_skip_auth'), 
-    'process.env': {},
-    'import.meta.env.BASE_URL': JSON.stringify('/')
-  },
+
   
   optimizeDeps: {
     include: ['react-router-dom']
