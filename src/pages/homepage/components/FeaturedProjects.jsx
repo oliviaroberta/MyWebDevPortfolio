@@ -19,7 +19,25 @@ const FeaturedProjects = () => {
       githubUrl: "https://github.com/oliviaroberta/VirtualAssistantPortfolioWebsite",
       featured: true
     },
-
+{
+      id: 2,
+      title: "Real-Time Crypto Dashboard",
+      category: "React • TypeScript • Tailwind CSS",
+      description:
+    "A responsive cryptocurrency dashboard that displays live market prices, 24-hour changes, and key metrics with automatic updates and offline caching.",
+  image: "/assets/images/Screenshot2y.png",
+  techStack: [
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "Vite",
+    "shadcn-ui",
+    "TanStack Query"
+  ],
+  liveUrl: "https://crypto-dashboard-seven-topaz.vercel.app/",
+  githubUrl: "https://github.com/oliviaroberta/CryptoDashboard",
+  featured: true
+},
     {
       id: 2,
       title: "E-Commerce Website",

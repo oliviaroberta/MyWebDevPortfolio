@@ -47,8 +47,43 @@ const PortfolioShowcase = () => {
        "Smooth page transitions", 
       ]
     },
+     {
+  id: 2,
+  title: "Real-Time Crypto Dashboard",
+  description:
+    "A professional cryptocurrency dashboard that displays live prices, market trends, and 24-hour changes for top digital assets. Built with React, TypeScript, and Vite for fast performance and real-time updates.",
+  image: "/assets/images/Screenshot2y.png",
+  type: "Frontend",
+  industry: "Finance / Cryptocurrency",
+  technologies: ["React", "TypeScript", "Vite", "Tailwind CSS", "shadcn-ui", "TanStack Query"],
+  featured: true,
+  liveUrl: "https://crypto-dashboard-seven-topaz.vercel.app/",
+  githubUrl: "https://github.com/oliviaroberta/CryptoDashboard",
+  duration: "3 weeks",
+
+  gallery: [
+    "/assets/images/Screenshot2y.png",
+    "/assets/images/Screenshot1y.png",
+  ],
+
+  challenge:
+    "Provide crypto enthusiasts with a fast, lightweight tool to track live prices and market changes without relying on an exchange account or heavy trading platform.",
+
+  solution:
+    "Developed a responsive dashboard with real-time price updates using TanStack Query, cached data for offline viewing, and a clean UI powered by Tailwind CSS and shadcn-ui. Implemented automatic refresh every 60 seconds to ensure data accuracy.",
+
+  features: [
+    "Live cryptocurrency price tracking",
+    "Market data visualization with charts",
+    "24-hour price change indicators",
+    "Offline data persistence",
+    "Auto-refresh every 60 seconds",
+    "Responsive design for all devices"
+  ]
+}
+,
     {
-      id: 2,
+      id: 3,
       title: "My Developer Portfolio",
       description: "A comprehensive portfolio website showcasing my skills, projects, and experience as a web developer, built with React, Next.js, and TypeScript.",
       image: "/assets/images/Screenshot1m.png",
@@ -78,7 +113,7 @@ const PortfolioShowcase = () => {
       
     },
     {
-      id: 3,
+      id: 4,
       title: "An Ecommerce Website",
       description: "A premium activewear e-commerce platform showcasing modern web development capabilities while creating a seamless shopping experience that reflects the brand's luxury aesthetic.",
       image: "/assets/images/Screenshot1A.png",
@@ -106,7 +141,7 @@ const PortfolioShowcase = () => {
         "Fast loading times"
       ]},
       {
-        id: 4,
+        id: 5,
         title: "Wine Website",
         description: "My very first website, which was a school project. It showcases my skills in HTML, CSS, and JavaScript, and serves as a testament to my growth as a web developer.",
         image: "/assets/images/Screenshot1W.png",
