@@ -77,7 +77,7 @@ const HeroSection = () => {
 
             {/* Right Content - Circular Profile Image */}
             <div className="flex items-center space-x-3 mb-4">
-                  <div className="w-56 h-56 lg:w-72 lg:h-72 rounded-lg overflow-hidden shadow-warm group-hover:shadow-warm-lg transition-all duration-300">
+                  <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-lg overflow-hidden shadow-warm group-hover:shadow-warm-lg transition-all duration-300">
              <img
               src="/assets/images/pic2.jpeg"
               alt="Your Profile"
