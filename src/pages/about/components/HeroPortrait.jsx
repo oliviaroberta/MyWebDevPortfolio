@@ -37,7 +37,7 @@ const HeroPortrait = () => {
                 <div className="w-80 h-80 lg:w-96 lg:h-96 mx-auto bg-gradient-to-br from-secondary/20 to-accent/20 rounded-3xl p-8 shadow-warm-lg">
                   <div className="w-full h-full bg-gradient-to-br from-surface to-surface-elevated rounded-2xl overflow-hidden shadow-lg">
                       <img 
-                        src="/assets/images/pic.jpg" 
+                        src="/assets/images/pic4.jpg" 
                         alt="Olivia-Roberta Dogbey" 
                         className="w-full h-full object-cover"
                       />

@@ -79,7 +79,7 @@ const HeroSection = () => {
             <div className="flex items-center space-x-3 mb-4">
                   <div className="w-100 h-100 rounded-lg overflow-hidden shadow-warm group-hover:shadow-warm-lg transition-all duration-300">
              <img
-              src="/assets/images/pic2.png"
+              src="/assets/images/pic3.png"
               alt="Your Profile"
               className="w-full h-full object-cover"
               />
