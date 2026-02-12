@@ -99,7 +99,7 @@ const HeroSection = () => {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <div className="absolute bottom-4 md:bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce z-20">
         <div className="flex flex-col items-center space-y-2">
           <span className="text-xs font-inter text-muted-foreground">Scroll to explore</span>
           <Icon name="ChevronDown" size={20} className="text-accent" />
